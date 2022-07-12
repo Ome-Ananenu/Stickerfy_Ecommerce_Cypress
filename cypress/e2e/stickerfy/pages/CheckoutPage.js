@@ -3,8 +3,8 @@ import { CartPage } from '../pages/CartPage';
 const cartPage = new CartPage();
 
 export class CheckoutPage {
-  checkOutBtnId = 'checkout';
-  totalId = 'total';
+  checkOutBtnId = '#checkout';
+  totalId = '#total';
   checkOutMssgId = '.col-sm-6 > :nth-child(3)';
 
   gotToCheckOut() {
